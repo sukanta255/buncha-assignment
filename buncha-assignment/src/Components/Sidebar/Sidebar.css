@@ -1,0 +1,49 @@
+.product {
+  display: flex;
+  text-align: center;
+  width: 180px;
+  padding: 10px 40px 10px 20px;
+  gap: 20px;
+  border-radius: 100px;
+  transition: background-color 0.3s;
+  color: #737d94;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+}
+.product:hover {
+  cursor: pointer;
+  color: white;
+  background: #5da9e9;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  font-family: Mulish;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+}
+.scrollbar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  flex-shrink: 0;
+  box-shadow: -1px 0px 0px 0px #f0f0f0 inset, 1px 0px 0px 0px #e8e8e8 inset;
+  overflow-y: scroll;
+  height: 300px;
+  width: 290px;
+  border-radius: 4px;
+  padding: 1px 3px 580px 4px;
+ 
+}
+
+@media screen and (max-width: 640px) {
+  .sidebar{
+    display: none;
+  }
+}
